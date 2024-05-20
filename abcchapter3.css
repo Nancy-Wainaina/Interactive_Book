@@ -1,0 +1,77 @@
+body{
+    background-image: url(images/ABC.jpeg) ;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+
+}
+
+#chapterThree{
+    margin-top: -10px;
+    text-align: center;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#abcChapterThree{   
+background-color:rgb(239, 240, 245);
+padding: 50px;
+border-radius: 25px;
+margin-block-start: 7%;
+margin-inline-start: 25%;
+inline-size: 700px;
+block-size: 400px;
+font-size: 1.5empx;
+
+}
+
+#bottomButtons{
+    display: flex;
+    gap: 250px;    
+}
+
+#lowerButton{
+    width: 180px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    background-color:brown ;
+    border: none;
+    border-radius: 10px;
+    
+}
+#lowerButton:hover{
+    color: rgb(3, 23, 18);
+    background-color: rgb(197, 66, 66);
+    
+}
+
+#upperButton:hover{
+    color: rgb(3, 23, 18);
+    background-color: rgb(197, 66, 66);
+    
+}
+
+#topButtons{
+    display: flex;
+    gap: 250px;    
+}
+
+#upperButton{
+    width: 180px;
+    padding: 5px;
+    color: white;
+    font-size: 17px;
+    background-color:brown ;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 35px;
+   
+}
+audio{
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+
+
