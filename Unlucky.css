@@ -1,0 +1,60 @@
+body{
+    background-image: url(images/unlucky.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    width: 1300px;
+    font-size: 25px;
+    border: 1px solid;
+    margin-left: 12%;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+h1{
+    text-align: center;
+    color: rgb(16,35,52);
+    font-size: 50px;
+}
+#next{
+    width: 200px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(16,35,52) ;
+    border: none;
+    border-radius: 10px;
+}
+#story{
+    width: 1200px;
+    background-color: white;
+    font-size:25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-left: 15%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+button{
+    width: 150px;
+    background-color:  rgb(16,35,52);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#buttons{
+    display: flex;
+    gap: 3.9%;
+}
+audio{
+    margin-left: 40%;
+    margin-top: 1%;
+}
+#next:hover{
+    background-color:  rgb(212,84,96);
+}
