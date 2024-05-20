@@ -1,0 +1,458 @@
+body{
+    background-color: #ca7150;
+    color: white;
+}
+img{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+}
+h2{
+    font-size: 30px;
+}
+#content{
+    margin-left: 9%;
+    display: flex;
+    gap: 10%;
+}
+button{
+    width: 170px;
+    margin-left: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(60,61,78);
+}
+#navbar{
+    display: flex;
+    gap: 35%;
+    align-items: center;
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    margin-left: 7%;
+}
+#list{
+    display:flex;
+    justify-content: space-between;
+}
+#li{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 30%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    list-style: none;
+}
+#list2{
+    width: 90%;
+    display: flex;
+    gap: 5%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: 15px;
+}
+img{
+    width: 800px;
+    height: 770px;
+}
+.scroll{
+    cursor:pointer;
+}
+#nums{
+    display: flex;
+}
+@media screen and (min-width: 280px) and (max-width:480px) {
+    body{
+        background-color: #ca7150;
+        color: white;
+        width: 100%;
+    }
+    img{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    #logo{
+        width: 70px;
+        height: 70px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #content{
+        margin-left: 9%;
+        display: flex;
+        gap: 10%;
+    }
+    button{
+        width: 70px;
+        margin-left: 0%;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+    }
+    button:hover{
+        background-color: rgb(60,61,78);
+    }
+    #navbar{
+        display: flex;
+        gap: 15%;
+        align-items: center;
+        -webkit-text-fill-color: white;
+        text-decoration: none;
+        font-size: larger;
+        text-align: center;
+        margin-left: 7%;
+    }
+    #list{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 10%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;
+    }
+    #list2{
+        width: 90%;
+        display: block;
+        flex-wrap: nowrap;
+        gap: 5%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: 15px;
+    }
+    img{
+        width: 300px;
+        height: 250px;
+    }
+    .scroll{
+        cursor:pointer;
+    }
+    #nums{
+        display: block;
+    }  
+}
+@media screen and (min-width: 481px) and (max-width:680px) {
+    body{
+        background-color: #ca7150;
+        color: white;
+        width: 100%;
+    }
+    img{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    #logo{
+        width: 70px;
+        height: 70px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #content{
+        margin-left: 9%;
+        display: flex;
+        gap: 10%;
+    }
+    button{
+        width: 70px;
+        margin-left: 0%;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+    }
+    button:hover{
+        background-color: rgb(60,61,78);
+    }
+    #navbar{
+        display: flex;
+        gap: 15%;
+        align-items: center;
+        -webkit-text-fill-color: white;
+        text-decoration: none;
+        font-size: larger;
+        text-align: center;
+        margin-left: 7%;
+    }
+    #list{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 10%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;
+    }
+    #list2{
+        width: 90%;
+        display: block;
+        flex-wrap: nowrap;
+        gap: 5%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: 15px;
+    }
+    img{
+        width: 200px;
+        height: 150px;
+    }
+    .scroll{
+        cursor:pointer;
+    }
+    #nums{
+        display: block;
+    }  
+}
+@media screen and (min-width: 681px) and (max-width:880px) {
+    body{
+        background-color: #ca7150;
+        color: white;
+        width: 100%;
+    }
+    img{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    #logo{
+        width: 70px;
+        height: 70px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #content{
+        margin-left: 9%;
+        display: flex;
+        gap: 10%;
+    }
+    button{
+        width: 150px;
+        font-size: x-large;
+        margin-left: 0%;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+    }
+    button:hover{
+        background-color: rgb(60,61,78);
+    }
+    #navbar{
+        display: flex;
+        gap: 15%;
+        align-items: center;
+        -webkit-text-fill-color: white;
+        text-decoration: none;
+        font-size: larger;
+        text-align: center;
+        margin-left: 7%;
+    }
+    #list{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 10%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;
+    }
+    #list2{
+        width: 90%;
+        display: block;
+        flex-wrap: nowrap;
+        gap: 5%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: 15px;
+    }
+    img{
+        width: 500px;
+        height: 450px;
+        margin-left: 50px;
+    }
+    .scroll{
+        cursor:pointer;
+    }
+    #nums{
+        display: block;
+    }  
+}
+@media screen and (min-width: 881px) and (max-width:1020px) {
+    body{
+        background-color: #ca7150;
+        color: white;
+        width: 100%;
+    }
+    img{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    #logo{
+        width: 70px;
+        height: 70px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #content{
+        margin-left: 9%;
+        display: flex;
+        gap: 10%;
+    }
+    button{
+        width: 270px;
+        font-size: xx-large;
+        margin-left: 0%;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+    }
+    button:hover{
+        background-color: rgb(60,61,78);
+    }
+    #navbar{
+        display: flex;
+        gap: 15%;
+        align-items: center;
+        -webkit-text-fill-color: white;
+        text-decoration: none;
+        font-size: xx-large;
+        text-align: center;
+        margin-left: 7%;
+    }
+    #list{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 10%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;
+    }
+    #list2{
+        width: 90%;
+        display: block;
+        flex-wrap: nowrap;
+        gap: 5%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: 15px;
+    }
+    img{
+        width: 700px;
+        height: 650px;
+    }
+    .scroll{
+        cursor:pointer;
+    }
+    #nums{
+        display: block;
+    }  
+}
+@media screen and (min-width: 1021px) and (max-width:1500px) {
+    body{
+        background-color: #ca7150;
+        color: white;
+    }
+    img{
+        width: 500px;
+        height: 350px;
+        border-radius: 15px;
+    }
+    #logo{
+        width: 70px;
+        height: 70px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #content{
+        margin-left: 9%;
+        display: flex;
+        gap: 10%;
+    }
+    button{
+        width: 170px;
+        margin-left: 40%;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+    }
+    button:hover{
+        background-color: rgb(60,61,78);
+    }
+    #navbar{
+        display: flex;
+        gap: 25%;
+        font-size: xx-large;
+        align-items: center;
+        -webkit-text-fill-color: white;
+        text-decoration: none;
+        font-size: larger;
+        text-align: center;
+        margin-left: 7%;
+    }
+    #list{
+        display:flex;
+        justify-content: space-between;
+    }
+    #li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 30%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;
+    }
+    #list2{
+        width: 90%;
+        display: flex;
+        gap: 5%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: 15px;
+    }
+    img{
+        width: 800px;
+        height: 770px;
+    }
+    .scroll{
+        cursor:pointer;
+    }
+    #nums{
+        display: flex;
+    } 
+}
