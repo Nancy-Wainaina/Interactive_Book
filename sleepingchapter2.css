@@ -1,0 +1,42 @@
+body{
+    background-image: url(images/sleepingbeauty.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#story{
+    width: 1200px;
+    background-color: white;
+    font-size:25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-left: 15%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 3.7%;
+
+}
+h1{
+    color:  rgb(255,120,201);
+    text-align: center;
+}
+#button{
+    gap: 30%;
+    display: flex;
+
+}
+button:hover{
+    background-color:  rgb(11,9,57);
+}
+button{
+    width: 150px;
+    background-color:  rgb(255,120,201);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+audio{
+    margin-left: 40%;
+    margin-top: 1%;
+}
