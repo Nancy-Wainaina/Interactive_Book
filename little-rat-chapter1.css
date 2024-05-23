@@ -66,3 +66,363 @@ audio{
     margin-left: 40%;
     margin-top: 1%;
 }
+@media screen and (min-width:280px) and (max-width:480px){
+    body{
+        background-image: url(/images/little\ rat.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: small;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-top: 3%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(190,118,34) ;
+        font-size: 50px;
+    }
+    #back-button{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(190,118,34)  ;
+        border: none;
+        border-radius: 10px;
+    }
+    #Chapter-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+    }
+    #chapters{
+        display: block;
+        gap: 7%;
+        margin-top: 2%;
+        margin-left: 3%;
+        line-height: 4;
+        
+    }
+    #Chapter-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+    
+    
+    
+    
+    
+    
+    #back-to-books-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+         margin-bottom: 3%;
+    }
+    
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:680px){
+    body{
+        background-image: url(/images/little\ rat.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: small;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-top: 3%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(190,118,34) ;
+        font-size: 50px;
+    }
+    #back-button{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(190,118,34)  ;
+        border: none;
+        border-radius: 10px;
+    }
+    #Chapter-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+    }
+    #chapters{
+        display: block;
+        gap: 7%;
+        margin-top: 2%;
+        margin-left: 3%;
+        line-height: 4;
+        
+    }
+    #Chapter-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+    
+    
+    
+    
+    
+    
+    #back-to-books-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+         margin-bottom: 3%;
+    }
+    
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width:681px) and (max-width:880px){
+    body{
+        background-image: url(/images/little\ rat.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: large;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-top: 3%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(190,118,34) ;
+        font-size: 50px;
+    }
+    #back-button{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(190,118,34)  ;
+        border: none;
+        border-radius: 10px;
+    }
+    #Chapter-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+    }
+    #chapters{
+        display: block;
+        gap: 7%;
+        margin-top: 2%;
+        margin-left: 3%;
+        line-height: 4;
+        
+    }
+    #Chapter-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+    
+    
+    
+    
+    
+    
+    #back-to-books-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+         margin-bottom: 3%;
+    }
+    
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width:881px) and (max-width:1080px){
+    body{
+        background-image: url(/images/little\ rat.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: x-large;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-top: 3%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(190,118,34) ;
+        font-size: 50px;
+    }
+    #back-button{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: large;
+        background-color:rgb(190,118,34)  ;
+        border: none;
+        border-radius: 10px;
+    }
+    #Chapter-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+    }
+    #chapters{
+        display: block;
+        gap: 7%;
+        margin-top: 2%;
+        margin-left: 3%;
+        line-height: 4;
+        
+    }
+    #Chapter-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+    
+    
+    
+    
+    
+    
+    #back-to-books-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+         margin-bottom: 3%;
+    }
+    
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width:1081px) and (max-width:1500px){
+    body{
+        background-image: url(/images/little\ rat.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: large;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-top: 3%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(190,118,34) ;
+        font-size: 50px;
+    }
+    #back-button{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(190,118,34)  ;
+        border: none;
+        border-radius: 10px;
+    }
+    #Chapter-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+    }
+    #chapters{
+        display: block;
+        gap: 7%;
+        margin-top: 2%;
+        margin-left: 3%;
+        line-height: 4;
+        
+    }
+    #Chapter-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+    
+    
+    
+    
+    
+    
+    #back-to-books-button{
+        width: 170px;
+        padding: 15px;
+         border-radius: 10px;
+         border: none;
+         background-color: rgb(190,118,34);
+         color: white;
+         margin-bottom: 3%;
+    }
+    
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+}

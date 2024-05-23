@@ -19,10 +19,10 @@ padding: 50px;
 border-radius: 25px;
 margin-block-start: 16%;
 margin-inline-start: 25%;
-inline-size: 700px;
-block-size: 250px;
-font-size: 1.5empx;
-
+inline-size: 1200px;
+block-size: 650px;
+font-size: xx-large;
+margin-top: 120px;
 
 
 }
@@ -36,11 +36,11 @@ font-size: 1.5empx;
     width: 180px;
     padding: 5px;
     color: white;
-    font-size: 20px;
+    font-size: x-large;
     background-color:brown ;
     border: none;
     border-radius: 10px;
-    
+    margin-left: 230px;   
 }
 #button:hover{
     color: rgb(3, 23, 18);
@@ -50,7 +50,292 @@ audio{
     margin-left: 40%;
     margin-top: 1%;
 }
-
+@media screen and (min-width: 280px) and (max-width:480px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 90%;
+    
+    }
+    
+    #BookTitle{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcSynopsis{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 16%;
+    margin-inline-start: 25%;
+    inline-size: 1200px;
+    block-size: 650px;
+    font-size: large;
+    width: 82%;
+    margin-left: -10px;
+    margin-top: 120px;
+    
+    
+    }
+    
+    #twoButtons{
+        display: flex;
+        gap: 50px;    
+    }
+    
+    #button{
+        width: 130px;
+        padding: 5px;
+        color: white;
+        font-size: large;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-left: 0px;   
+    }
+    #button:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+    }
+    audio{
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width:680px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 90%;
+    
+    }
+    
+    #BookTitle{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcSynopsis{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 16%;
+    margin-inline-start: 25%;
+    inline-size: 1200px;
+    block-size: 650px;
+    font-size: x-large;
+    width: 91%;
+    margin-left: -10px;
+    margin-top: 120px;
+    
+    
+    }
+    
+    #twoButtons{
+        display: flex;
+        gap: 50px;    
+    }
+    
+    #button{
+        width: 130px;
+        padding: 5px;
+        color: white;
+        font-size: large;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-left: 0px;   
+    }
+    #button:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+    }
+    audio{
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width: 681px) and (max-width:880px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 90%;
+    
+    }
+    
+    #BookTitle{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcSynopsis{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 16%;
+    margin-inline-start: 25%;
+    inline-size: 1200px;
+    block-size: 650px;
+    font-size: xx-large;
+    width: 97%;
+    margin-left: -10px;
+    margin-top: 120px;
+    
+    
+    }
+    
+    #twoButtons{
+        display: flex;
+        gap: 50px;    
+    }
+    
+    #button{
+        width: 170px;
+        padding: 5px;
+        color: white;
+        font-size: x-large;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-left: 0px;   
+    }
+    #button:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+    }
+    audio{
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width: 881px) and (max-width:1080px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 90%;
+    
+    }
+    
+    #BookTitle{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcSynopsis{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 16%;
+    margin-inline-start: 25%;
+    inline-size: 1200px;
+    block-size: 650px;
+    font-size: xxx-large;
+    width: 100%;
+    height: 100%;
+    margin-left: -10px;
+    margin-top: 120px;
+    
+    
+    }
+    
+    #twoButtons{
+        display: flex;
+        gap: 50px;    
+    }
+    
+    #button{
+        width: 350px;
+        padding: 5px;
+        color: white;
+        font-size: xxx-large;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-left: 0px;   
+    }
+    #button:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+    }
+    audio{
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width: 1081px) and (max-width:1500px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 90%;
+    
+    }
+    
+    #BookTitle{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcSynopsis{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 16%;
+    margin-inline-start: 25%;
+    inline-size: 1200px;
+    block-size: 650px;
+    font-size:xx-large;
+    width: 102%;
+    margin-left: -10px;
+    margin-top: 120px;
+    
+    
+    }
+    
+    #twoButtons{
+        display: flex;
+        gap: 50px;    
+    }
+    
+    #button{
+        width: 260px;
+        padding: 5px;
+        color: white;
+        font-size: x-large;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-left: 0px;   
+    }
+    #button:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+    }
+    audio{
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+}
 
 
 

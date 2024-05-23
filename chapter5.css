@@ -59,3 +59,328 @@ audio{
 #next:hover{
     background-color:  rgb(212,84,96);
 }
+@media screen and (min-width:280px) and (max-width:480px){
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 98%;
+    }
+    section{
+        width: 90%;
+        font-size: small;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        padding-bottom: 30px;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52);
+        font-size: small;
+    }
+    #next{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(16,35,52) ;
+        border: none;
+        border-radius: 10px;
+    }
+    #story{
+        width: 97%;
+        background-color: white;
+        font-size:small;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-left: 0%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    button{
+        width: 150px;
+        background-color:  rgb(16,35,52);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    #buttons{
+        display: block;
+        gap: 3.9%;
+        line-height: 4;
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+    #next:hover{
+        background-color:  rgb(212,84,96);
+    }
+}
+@media screen and (min-width:481px) and (max-width:680px){
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: small;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        padding-bottom: 30px;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52);
+        font-size: small;
+    }
+    #next{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(16,35,52) ;
+        border: none;
+        border-radius: 10px;
+    }
+    #story{
+        width: 97%;
+        background-color: white;
+        font-size:small;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-left: 0%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    button{
+        width: 150px;
+        background-color:  rgb(16,35,52);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    #buttons{
+        display: block;
+        gap: 3.9%;
+        line-height: 4;
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+    #next:hover{
+        background-color:  rgb(212,84,96);
+    }
+}
+@media screen and (min-width:681px) and (max-width:880px){
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: small;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        padding-bottom: 30px;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52);
+        font-size: small;
+    }
+    #next{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(16,35,52) ;
+        border: none;
+        border-radius: 10px;
+    }
+    #story{
+        width: 97%;
+        background-color: white;
+        font-size:large;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-left: 0%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    button{
+        width: 150px;
+        background-color:  rgb(16,35,52);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    #buttons{
+        display: block;
+        gap: 3.9%;
+        line-height: 4;
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+    #next:hover{
+        background-color:  rgb(212,84,96);
+    }
+}
+@media screen and (min-width:881px) and (max-width:1080px){
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: small;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        padding-bottom: 30px;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52);
+        font-size: small;
+    }
+    #next{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(16,35,52) ;
+        border: none;
+        border-radius: 10px;
+    }
+    #story{
+        width: 97%;
+        background-color: white;
+        font-size:xx-large;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-left: 0%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    button{
+        width: 150px;
+        background-color:  rgb(16,35,52);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    #buttons{
+        display: block;
+        gap: 3.9%;
+        line-height: 4;
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+    #next:hover{
+        background-color:  rgb(212,84,96);
+    }
+}
+@media screen and (min-width:1081px) and (max-width:1500px){
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        font-size: small;
+        border: 1px solid;
+        margin-left: 0%;
+        background-color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        padding-bottom: 30px;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52);
+        font-size: small;
+    }
+    #next{
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color:rgb(16,35,52) ;
+        border: none;
+        border-radius: 10px;
+    }
+    #story{
+        width: 97%;
+        background-color: white;
+        font-size:x-large;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20px;
+        margin-left: 0%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    button{
+        width: 150px;
+        background-color:  rgb(16,35,52);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    #buttons{
+        display: block;
+        gap: 3.9%;
+        line-height: 4;
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+    #next:hover{
+        background-color:  rgb(212,84,96);
+    }
+}

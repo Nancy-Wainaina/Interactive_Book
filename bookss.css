@@ -61,8 +61,8 @@ button:hover{
     white-space: 15px;
 }
 img{
-    width: 800px;
-    height: 770px;
+    width: 600px;
+    height: 570px;
 }
 .scroll{
     cursor:pointer;
@@ -129,7 +129,7 @@ img{
     }
     #list2{
         width: 90%;
-        display: block;
+        display: flex;
         flex-wrap: nowrap;
         gap: 5%;
         overflow-x: scroll;
@@ -206,7 +206,7 @@ img{
     }
     #list2{
         width: 90%;
-        display: block;
+        display: flex;
         flex-wrap: nowrap;
         gap: 5%;
         overflow-x: scroll;
@@ -214,8 +214,8 @@ img{
         white-space: 15px;
     }
     img{
-        width: 200px;
-        height: 150px;
+        width: 400px;
+        height: 350px;
     }
     .scroll{
         cursor:pointer;
@@ -284,7 +284,7 @@ img{
     }
     #list2{
         width: 90%;
-        display: block;
+        display: flex;
         flex-wrap: nowrap;
         gap: 5%;
         overflow-x: scroll;
@@ -292,8 +292,8 @@ img{
         white-space: 15px;
     }
     img{
-        width: 500px;
-        height: 450px;
+        width: 600px;
+        height: 750px;
         margin-left: 50px;
     }
     .scroll{
@@ -363,7 +363,7 @@ img{
     }
     #list2{
         width: 90%;
-        display: block;
+        display: flex;
         flex-wrap: nowrap;
         gap: 5%;
         overflow-x: scroll;
@@ -446,8 +446,8 @@ img{
         white-space: 15px;
     }
     img{
-        width: 800px;
-        height: 770px;
+        width: 600px;
+        height: 370px;
     }
     .scroll{
         cursor:pointer;

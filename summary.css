@@ -47,3 +47,270 @@ h1{
 #start-button:hover{
     background-color:  rgb(212,84,96);
 }
+@media screen and (min-width:280px) and (max-width:480px) {
+    section{
+        border: 1px solid;
+        width: 96%;
+        font-size: x-large;
+        height: 100%;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 15%;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-size: cover;
+    }
+    #navigating-buttons{
+        display: block;
+        gap: 70%;
+        margin-left: 9%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52) ;
+    }
+    #back-button{
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(16,35,52);
+        border: none;
+        color: white;
+    }
+    #start-button{
+        width: 150px;
+        height: 35px;
+        padding: 10px;
+         border-radius: 10px;
+         border: none;
+         background-color:  rgb(16,35,52);
+         color: white;
+    }
+    #back-button:hover{
+        background-color:  rgb(212,84,96);
+    
+    }
+    #start-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+}
+@media screen and (min-width:481px) and (max-width:680px) {
+    section{
+        border: 1px solid;
+        width: 96%;
+        font-size: x-large;
+        height: 100%;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 15%;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-size: cover;
+    }
+    #navigating-buttons{
+        display: block;
+        gap: 70%;
+        line-height: 3;
+        margin-left: 9%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52) ;
+    }
+    #back-button{
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(16,35,52);
+        border: none;
+        color: white;
+    }
+    #start-button{
+        width: 150px;
+        height: 35px;
+        padding: 10px;
+         border-radius: 10px;
+         border: none;
+         background-color:  rgb(16,35,52);
+         color: white;
+    }
+    #back-button:hover{
+        background-color:  rgb(212,84,96);
+    
+    }
+    #start-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+}
+@media screen and (min-width:681px) and (max-width:880px) {
+    section{
+        border: 1px solid;
+        width: 96%;
+        font-size: xx-large;
+        height: 100%;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 15%;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-size: cover;
+    }
+    #navigating-buttons{
+        display: block;
+        gap: 70%;
+        margin-left: 9%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52) ;
+    }
+    #back-button{
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(16,35,52);
+        border: none;
+        color: white;
+        font-size: larger;
+    }
+    #start-button{
+        width: 450px;
+        height: 65px;
+        padding: 10px;
+         border-radius: 10px;
+         border: none;
+         background-color:  rgb(16,35,52);
+         color: white;
+         font-size: larger;
+    }
+    #back-button:hover{
+        background-color:  rgb(212,84,96);
+    
+    }
+    #start-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+}
+@media screen and (min-width:881px) and (max-width:1080px) {
+    section{
+        border: 1px solid;
+        width: 96%;
+        font-size: x-large;
+        height: 100%;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 15%;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-size: cover;
+    }
+    #navigating-buttons{
+        display: block;
+        gap: 70%;
+        margin-left: 9%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52) ;
+    }
+    #back-button{
+        width: 150px;
+        padding: 10px;
+        font-size: xx-large;
+        border-radius: 10px;
+        background-color: rgb(16,35,52);
+        border: none;
+        color: white;
+    }
+    #start-button{
+        width: 450px;
+        height: 60px;
+        font-size: xx-large;
+        padding: 10px;
+         border-radius: 10px;
+         border: none;
+         background-color:  rgb(16,35,52);
+         color: white;
+    }
+    #back-button:hover{
+        background-color:  rgb(212,84,96);
+    
+    }
+    #start-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+}
+@media screen and (min-width:1081px) and (max-width:1500px) {
+    section{
+        border: 1px solid;
+        width: 96%;
+        font-size: x-large;
+        height: 100%;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 15%;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    body{
+        background-image: url(images/unlucky.jpeg);
+        background-size: cover;
+    }
+    #navigating-buttons{
+        display: block;
+        gap: 70%;
+        margin-left: 9%;
+    }
+    h1{
+        text-align: center;
+        color: rgb(16,35,52) ;
+    }
+    #back-button{
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(16,35,52);
+        border: none;
+        font-size: xx-large;
+        color: white;
+    }
+    #start-button{
+        width: 250px;
+        height: 58px;
+        padding: 10px;
+         border-radius: 10px;
+         border: none;
+         background-color:  rgb(16,35,52);
+         color: white;
+         font-size: xx-large;
+    }
+    #back-button:hover{
+        background-color:  rgb(212,84,96);
+    
+    }
+    #start-button:hover{
+        background-color:  rgb(212,84,96);
+    }
+}

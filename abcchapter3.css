@@ -72,14 +72,13 @@ audio{
     margin-left: 40%;
     margin-top: 1%;
 }
-@media screen and(min-width:280px) and (max-width: 480px){
+@media screen and (min-width:280px) and (max-width: 480px){
     body{
         background-image: url(images/ABC.jpeg) ;
         background-repeat: no-repeat;
         position: absolute;
         background-size: cover;
-        width: 100%;
-        margin-left: -100px;
+        width: 85%;
     
     }
     
@@ -94,18 +93,19 @@ audio{
     background-color:rgb(239, 240, 245);
     padding: 50px;
     border-radius: 25px;
-    margin-block-start: 7%;
-    margin-inline-start: 25%;
-    inline-size: 700px;
-    block-size: 400px;
-    font-size: small;
-    margin-left: -100px;
-    width: 75%;
+    margin-block-start: 0%;
+    margin-inline-start: 0%;
+    inline-size: 90%;
+    block-size: 60%;
+    font-size:small;
+    width: 100%;
+    margin-left: 0px;
     
     }
     
     #bottomButtons{
-        display: flex;
+        display: block;
+        line-height: 4;
         gap: 250px;    
     }
     
@@ -132,8 +132,9 @@ audio{
     }
     
     #topButtons{
-        display: block;
-        gap: 250px;    
+        display:block;
+        gap: 250px;  
+        line-height: 4;  
     }
     
     #upperButton{
@@ -150,8 +151,331 @@ audio{
     audio{
         margin-left: 0%;
         margin-top: 1%;
+    } 
+}
+@media screen and (min-width:481px) and (max-width: 680px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 85%;
+    
     }
+    
+    #chapterThree{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcChapterThree{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 0%;
+    margin-inline-start: 0%;
+    inline-size: 90%;
+    block-size: 60%;
+    font-size:small;
+    width: 100%;
+    margin-left: 0px;
+    
+    }
+    
+    #bottomButtons{
+        display: block;
+        line-height: 4;
+        gap: 250px;    
+    }
+    
+    #lowerButton{
+        width: 180px;
+        padding: 5px;
+        color: white;
+        font-size: 20px;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        
+    }
+    #lowerButton:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+        
+    }
+    
+    #upperButton:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+        
+    }
+    
+    #topButtons{
+        display:block;
+        gap: 250px;  
+        line-height: 4;  
+    }
+    
+    #upperButton{
+        width: 180px;
+        padding: 5px;
+        color: white;
+        font-size: 17px;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 35px;
+       
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    } 
+}
+@media screen and (min-width:681px) and (max-width: 880px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 85%;
+    
+    }
+    
+    #chapterThree{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcChapterThree{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 0%;
+    margin-inline-start: 0%;
+    inline-size: 90%;
+    block-size: 60%;
+    font-size:large;
+    width: 100%;
+    margin-left: 0px;
+    
+    }
+    
+    #bottomButtons{
+        display: block;
+        line-height: 4;
+        gap: 250px;    
+    }
+    
+    #lowerButton{
+        width: 180px;
+        padding: 5px;
+        color: white;
+        font-size: 20px;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        
+    }
+    #lowerButton:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+        
+    }
+    
+    #upperButton:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+        
+    }
+    
+    #topButtons{
+        display:block;
+        gap: 250px;  
+        line-height: 4;  
+    }
+    
+    #upperButton{
+        width: 180px;
+        padding: 5px;
+        color: white;
+        font-size: 17px;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 35px;
+       
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    } 
 }
 
+@media screen and (min-width:881px) and (max-width: 1080px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 85%;
+    
+    }
+    
+    #chapterThree{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcChapterThree{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 0%;
+    margin-inline-start: 0%;
+    inline-size: 90%;
+    block-size: 60%;
+    font-size:xx-large;
+    width: 100%;
+    margin-left: 0px;
+    
+    }
+    
+    #bottomButtons{
+        display: block;
+        line-height: 4;
+        gap: 250px;    
+    }
+    
+    #lowerButton{
+        width: 180px;
+        padding: 5px;
+        color: white;
+        font-size: 20px;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        
+    }
+    #lowerButton:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+        
+    }
+    
+    #upperButton:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+        
+    }
+    
+    #topButtons{
+        display:block;
+        gap: 250px;  
+        line-height: 4;  
+    }
+    
+    #upperButton{
+        width: 180px;
+        padding: 5px;
+        color: white;
+        font-size: 17px;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 35px;
+       
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    } 
+}
+@media screen and (min-width:1081px) and (max-width: 1500px){
+    body{
+        background-image: url(images/ABC.jpeg) ;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 85%;
+    
+    }
+    
+    #chapterThree{
+        margin-top: -10px;
+        text-align: center;
+        color: brown;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #abcChapterThree{   
+    background-color:rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-block-start: 0%;
+    margin-inline-start: 0%;
+    inline-size: 90%;
+    block-size: 60%;
+    font-size:larger;
+    width: 100%;
+    margin-left: 0px;
+    }
+    
+    #bottomButtons{
+        display: block;
+        line-height: 4;
+        gap: 250px;    
+    }
+    
+    #lowerButton{
+        width: 180px;
+        padding: 5px;
+        color: white;
+        font-size: 20px;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        
+    }
+    #lowerButton:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+        
+    }
+    
+    #upperButton:hover{
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
+        
+    }
+    
+    #topButtons{
+        display:block;
+        gap: 250px;  
+        line-height: 4;  
+    }
+    
+    #upperButton{
+        width: 180px;
+        padding: 5px;
+        color: white;
+        font-size: 17px;
+        background-color:brown ;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 35px;
+       
+    }
+    audio{
+        margin-left: 0%;
+        margin-top: 1%;
+    } 
+}
 
 
