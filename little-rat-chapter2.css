@@ -15,6 +15,12 @@ section{
     margin-top: 3%;
 
 }
+#lowerButton{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+
 h1{
     text-align: center;
     color: rgb(190,118,34) ;
@@ -30,7 +36,7 @@ h1{
     border-radius: 10px;
 }
 #Chapter-button{
-    width: 170px;
+    width: 135px;
     padding: 15px;
      border-radius: 10px;
      border: none;

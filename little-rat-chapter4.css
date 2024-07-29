@@ -42,16 +42,21 @@ h1{
     gap: 60%;
 }
 #Chapter-button{
-    width: 170px;
+    width: 160px;
     padding: 15px;
      border-radius: 10px;
      border: none;
      background-color: rgb(190,118,34);
      color: white;
 }
+
+#lowerButton{
+    display: flex;
+   justify-content: space-evenly;
+}
 #chapters{
     display: flex;
-    gap: 7%;
+    gap: 4%;
     margin-top: 2%;
     margin-left: 3%;
 

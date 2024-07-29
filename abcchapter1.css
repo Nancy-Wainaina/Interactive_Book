@@ -54,11 +54,11 @@ font-size: 1.5empx;
 
 #topButtons{
     display: flex;
-    gap: 250px;    
+    gap: 55px;    
 }
 
 #upperButton{
-    width: 180px;
+    width: 125px;
     padding: 5px;
     color: white;
     font-size: 17px;

@@ -65,6 +65,16 @@ h1{
      color: white;
      margin-bottom: 3%;
 }
+
+#back-to-books-button{
+    width: 170px;
+    padding: 13px;
+     border-radius: 10px;
+     border: none;
+     background-color: rgb(190,118,34);
+     color: white;
+     margin-bottom: 3%;
+}
 audio{
     margin-left: 40%;
     margin-top: 1%;

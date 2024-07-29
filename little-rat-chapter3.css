@@ -51,19 +51,24 @@ h1{
 }
 #chapters{
     display: flex;
-    gap: 7%;
+    gap: 4%;
     margin-top: 2%;
     margin-left: 3%;
 
 }
 #back-to-books-button{
-    width: 170px;
+    width: 145px;
     padding: 13px;
      border-radius: 10px;
      border: none;
      background-color: rgb(190,118,34);
      color: white;
      margin-bottom: 3%;
+}
+
+#lowerButton{
+    display: flex;
+   justify-content: space-evenly;
 }
 audio{
     margin-left: 40%;
