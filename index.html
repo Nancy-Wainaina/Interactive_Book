@@ -3,21 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Readet Books Website </title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Readeet Books Website</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/book.jpeg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            overflow: hidden; /* Prevent scrolling */
+            height: 100vh; /* Full viewport height */
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 4%;
+        }
+
+        #navbar a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px 30px;
+            transition: color 0.3s ease;
+        }
+
+        #navbar a:hover {
+            color: #ffffff;
+        }
+
+        #logo {
+            width: 80px;
+        }
+
+        .text {
+            text-align: center;
+            border: none;
+            width: fit-content;
+            margin-left: 25%;
+            color: white;
+            padding: 10px 0; /* Reduced padding further */
+        }
+
+        #text {
+            font-size: 50px;
+        }
+
+        #call-to-action {
+            font-size: 40px;
+        }
+
+        #heading {
+            font-size: 70px;
+        }
+
+        @media screen and (min-width: 280px) and (max-width: 480px) {
+            body {
+                width: 90%;
+            }
+
+            #navbar {
+                gap: 15%;
+                margin-left: 0%;
+                padding: 10px 4%;
+            }
+
+            #navbar a {
+                font-size: 18px;
+                padding: 12px 24px;
+            }
+
+            #logo {
+                width: 60px;
+            }
+
+            .text {
+                padding: 10px 0; /* Reduced padding further */
+                margin-left: 0%;
+            }
+
+            #text {
+                font-size: 30px;
+            }
+
+            #call-to-action {
+                font-size: 30px;
+            }
+
+            #heading {
+                font-size: 82px;
+                width: 80%;
+            }
+        }
+
+        /* Additional media queries for other screen sizes */
+    </style>
 </head>
 <body>
     <section>
-      <div id="navbar">
-        <img src="images/readeet.png" id="logo">
-        <a href="index.html" id="navbar">Home</a>
-        <a href="bookss.html" id="navbar">Books</a>
-      </div>
-      <div class="text">
-        <h1 id="text">Welcome to readeet</h1>
-        <h1 id="heading">READ MORE, <br> KNOW MORE <br> BE MORE </h1>
-        <p id="call-to-action">Navigate to books to see all our books!</p>
-      </div>
+        <div id="navbar">
+            <img src="images/readeet.png" id="logo">
+            <div>
+                <a href="index.html">Home</a>
+                <a href="bookss.html">Books</a>
+            </div>
+        </div>
+        <div class="text">
+            <h1 id="text">Welcome to readeet</h1>
+            <h1 id="heading">READ MORE, <br> KNOW MORE <br> BE MORE</h1>
+            <p id="call-to-action">Navigate to books to see all our books!</p>
+        </div>
     </section>
+
+    <script>
+        // Prevent swipe-up scroll
+        window.addEventListener('touchmove', function(event) {
+            event.preventDefault();
+        }, { passive: false });
+    </script>
 </body>
 </html>

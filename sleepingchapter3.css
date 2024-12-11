@@ -1,41 +1,93 @@
-body{
-    background-image: url(images/sleepingbeauty.jpeg.jpeg);
+body {
+    background-image: url("images/sleepingbeauty.jpeg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
 }
-#story{
-    width: 1200px;
-    background-color: white;
-    font-size:25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
-    margin-left: 15%;
-    padding-bottom: 20px;
-    padding-top: 20px;
 
-}
-h1{
-    color:  rgb(255,120,201);
+h1 {
     text-align: center;
+    color: rgb(255, 120, 201);
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
-#button{
-    gap: 30%;
-    display: flex;
 
+#story {
+    background-color: rgba(239, 240, 245, 0.9);
+    padding: 30px;
+    border-radius: 25px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 3.7%;
 }
-button:hover{
-    background-color:  rgb(11,9,57);
+
+#button {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 20px;
 }
-button{
+
+button {
     width: 150px;
-    background-color:  rgb(255,120,201);
+    background-color: rgb(255, 120, 201);
     color: white;
-    padding: 10px;
-    border: none;
+    padding: 15px;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-audio{
-    margin-left: 40%;
-    margin-top: 1%;
+
+button:hover {
+    color: rgb(3, 23, 18);
+    background-color: rgb(197, 66, 66);
+    transform: scale(1.05);
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+    #story {
+        padding: 20px;
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    #button {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #story {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
 }

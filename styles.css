@@ -17,13 +17,13 @@ body{
     width: 70px;
 }
 #text{
-    font-size: 100px;
-}
-#call-to-action{
     font-size: 50px;
 }
+#call-to-action{
+    font-size: 40px;
+}
 #heading{
-    font-size: 110px;
+    font-size: 70px;
 }
 .text{
     text-align: center;

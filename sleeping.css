@@ -1,105 +1,103 @@
-section{
-    border: 1px solid;
-    width: 1600px;
-    font-size: 30px;
-    height: 460px;
-    background-color: white;
-    border: none;
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 15%;
-    padding-left: 35px;
-    padding-right: 35px;
-    
-
-}
-body{
-    background-image: url(images/sleepingbeauty.jpeg.jpeg);
+body {
+    background-image: url("images/sleepingbeauty.jpeg.jpeg");
+    background-repeat: no-repeat;
+    position: absolute;
     background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-#navigating-buttons{
+#BookTitle {
+    margin-top: -5px;
+    text-align: center;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    background-color: rgb(239, 240, 245);
+    padding: 50px;
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-left: 25%;
+    inline-size: 700px;
+    block-size: 450px;
+    font-size: 1.5em;
+}
+
+#navigating-buttons {
     display: flex;
-    gap: 70%;
+    gap: 250px;
     margin-left: 9%;
 }
-h1{
+
+h1 {
     text-align: center;
-    color: rgb(255,120,201) ;
+    color: rgb(255,120,201);
+    font-size: 40px;
 }
-#back-button{
-    width: 150px;
+
+#back-button, #start-button {
+    width: 180px;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(255,120,201);
+    background-color:  rgb(255,120,201);
     border: none;
     color: white;
 }
-#back-button:hover{
-    background-color:  rgb(11,9,57);
+
+#back-button:hover, #start-button:hover {
+    color: rgb(3, 23, 18);
+    background-color: rgb(197, 66, 66);
 }
-#start-button{
-    width: 170px;
-    padding: 15px;
-     border-radius: 10px;
-     border: none;
-     background-color: rgb(255,120,201);
-     color: white;
+
+audio {
+    margin-left: 40%;
+    margin-top: 1%;
 }
-#start-button:hover{
-    background-color:  rgb(11,9,57);
-}
-@media screen  and (min-width: 280px) and (max-width:480px){
-    section{
-        border: 1px solid;
-        width: 100%;
-        font-size: x-large;
-        height: 700px;
-        background-color: white;
-        border: none;
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    section {
+        background-color: rgb(239, 240, 245);
+        padding: 20px;
         border-radius: 15px;
-        margin: auto;
         margin-top: 15%;
-        padding-left: 0px;
-        padding-right: 0px;
-        
-    
+        margin-left: 5%;
+        inline-size: 90%;
+        block-size: 600px;
+        font-size: 1.2em;
     }
-    body{
-        background-image: url(images/sleepingbeauty.jpeg.jpeg);
+
+    body {
+        background-image: url("images/sleepingbeauty.jpeg");
         background-size: cover;
         height: 100%;
     }
-    
-    #navigating-buttons{
+
+    #navigating-buttons {
         display: flex;
-        gap: 70%;
+        gap: 30%;
         margin-left: 0%;
     }
-    h1{
+
+    h1 {
         text-align: center;
-        color: rgb(255,120,201) ;
+        color: rgb(190, 118, 34);
+        font-size: 30px;
     }
-    #back-button{
+
+    #back-button, #start-button {
         width: 150px;
         padding: 10px;
         border-radius: 10px;
-        background-color: rgb(255,120,201);
+        background-color: rgb(190, 118, 34);
         border: none;
         color: white;
     }
-    #back-button:hover{
-        background-color:  rgb(11,9,57);
+
+    #back-button:hover, #start-button:hover {
+        color: rgb(3, 23, 18);
+        background-color: rgb(197, 66, 66);
     }
-    #start-button{
-        width: 170px;
-        padding: 15px;
-         border-radius: 10px;
-         border: none;
-         background-color: rgb(255,120,201);
-         color: white;
-    }
-    #start-button:hover{
-        background-color:  rgb(11,9,57);
-    }  
 }

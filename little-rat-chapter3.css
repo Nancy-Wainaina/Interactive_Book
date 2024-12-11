@@ -1,71 +1,103 @@
-body{
-    background-image: url(/images/little\ rat.jpeg);
+body {
+    background-image: url("images/little rat.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
 }
-section{
-    width: 1300px;
-    font-size: 25px;
-    border: 1px solid;
-    margin-left: 18%;
-    background-color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
-    padding-bottom: 30px;
-    margin-top: 3%;
-}
-h1{
+
+h1 {
     text-align: center;
-    color: rgb(190,118,34) ;
+    color: rgb(190, 118, 34);
     font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
-#back-button{
-    width: 200px;
-    padding: 10px;
-    color: white;
-    font-size: 20px;
-    background-color:rgb(190,118,34)  ;
-    border: none;
-    border-radius: 10px;
+
+section {
+    background-color: rgba(239, 240, 245, 0.9);
+    padding: 30px;
+    border-radius: 25px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
-#start-button{
-    width: 170px;
-    padding: 15px;
-     border-radius: 10px;
-     border: none;
-     background-color: rgb(190,118,34);
-     color: white;
-}
-#buttons{
+
+#buttons {
     display: flex;
     gap: 60%;
+    justify-content: center;
 }
-#Chapter-button{
-    width: 170px;
+
+#back-button, #start-button, #Chapter-button, #back-to-books-button {
+    width: 140px;
     padding: 15px;
-     border-radius: 10px;
-     border: none;
-     background-color: rgb(190,118,34);
-     color: white;
+    border-radius: 10px;
+    background-color: rgb(190, 118, 34);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-#chapters{
+
+#back-button {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#back-button:hover, #start-button:hover, #Chapter-button:hover, #back-to-books-button:hover {
+    color: rgb(3, 23, 18);
+    background-color: rgb(197, 66, 66);
+    transform: scale(1.05);
+}
+
+#chapters {
     display: flex;
     gap: 7%;
     margin-top: 2%;
     margin-left: 3%;
+}
 
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
 }
-#back-to-books-button{
-    width: 170px;
-    padding: 13px;
-     border-radius: 10px;
-     border: none;
-     background-color: rgb(190,118,34);
-     color: white;
-     margin-bottom: 3%;
+
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    #buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #back-button, #start-button, #Chapter-button, #back-to-books-button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
 }
-audio{
-    margin-left: 40%;
-    margin-top: 1%;
+
+@media (max-width: 480px) {
+    body {
+        background-size: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
 }

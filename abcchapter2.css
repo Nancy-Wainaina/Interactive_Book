@@ -1,490 +1,99 @@
-body{
-    background-image: url(images/ABC.jpeg) ;
+body {
+    background-image: url(images/ABC.jpeg);
     background-repeat: no-repeat;
-    position: absolute;
     background-size: cover;
-
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
 }
 
-#chapterTwo{
-    margin-top: -10px;
+#chapterTwo {
+    margin-top: 20px;
     text-align: center;
     color: brown;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-#abcChapterTwo{   
-background-color:rgb(239, 240, 245);
-padding: 50px;
-border-radius: 25px;
-margin-block-start: 10%;
-margin-inline-start: 25%;
-inline-size: 1200px;
-block-size: 600px;
-font-size: 1.5empx;
-
+#abcChapterTwo {
+    background-color: rgba(239, 240, 245, 0.9);
+    padding: 30px;
+    border-radius: 25px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
-#bottomButtons{
+#topButtons, #bottomButtons {
     display: flex;
-    gap: 250px;    
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    outline: none;
+    border: none;
 }
 
-#lowerButton{
-    width: 180px;
-    padding: 5px;
+button {
+    padding: 10px 20px;
     color: white;
-    font-size: 20px;
-    background-color:brown ;
+    font-size: 1rem;
+    background-color: brown;
     border: none;
-    border-radius: 10px;
-    
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    outline: none;
 }
-#lowerButton:hover{
+
+button:hover {
     color: rgb(3, 23, 18);
     background-color: rgb(197, 66, 66);
-    
+    transform: scale(1.05);
 }
 
-#upperButton:hover{
-    color: rgb(3, 23, 18);
-    background-color: rgb(197, 66, 66);
-    
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
 }
 
-#topButtons{
-    display: flex;
-    gap: 250px;    
-}
+@media (max-width: 768px) {
+    #abcChapterTwo {
+        padding: 20px;
+        width: 90%;
+        font-size: 1rem;
+    }
 
-#upperButton{
-    width: 180px;
-    padding: 5px;
-    color: white;
-    font-size: 17px;
-    background-color:brown ;
-    border: none;
-    border-radius: 10px;
-    margin-bottom: 35px;
-   
-}
+    #topButtons, #bottomButtons {
+        flex-direction: column;
+        gap: 15px;
+    }
 
-audio{
-    margin-left: 40%;
-    margin-top: 1%;
-}
-@media screen and (min-width:280px) and (max-width:480px) {
-    body{
-        background-image: url(images/ABC.jpeg) ;
-        background-repeat: no-repeat;
-        position: absolute;
-        background-size: cover;
-        width: 100%;
-        margin-left: -100px;
-        height: 100%;
-    
-    }
-    
-    #chapterTwo{
-        margin-top: -10px;
-        text-align: center;
-        color: brown;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    #abcChapterTwo{   
-    background-color:rgb(239, 240, 245);
-    padding: 50px;
-    border-radius: 25px;
-    margin-block-start: 10%;
-    margin-inline-start: 25%;
-    inline-size: 1200px;
-    block-size: 600px;
-    font-size: small;
-    width: 75%;
-    height: 100%;
-    
-    }
-    
-    #bottomButtons{
-        display: flex;
-        gap: 250px;    
-    }
-    
-    #lowerButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 20px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        
-    }
-    #lowerButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #upperButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #topButtons{
-        display: block;
-        gap: 5%;    
-    }
-    
-    #upperButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 17px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        margin-bottom: 35px;
-       
-    }
-    
-    audio{
-        margin-left: 40%;
-        margin-top: 120%;
-    }
-}
-@media screen and (min-width:481px) and (max-width:680px) {
-    body{
-        background-image: url(images/ABC.jpeg) ;
-        background-repeat: no-repeat;
-        position: absolute;
-        background-size: cover;
-        width: 100%;
-        margin-left: -100px;
-        height: 100%;
-    
-    }
-    
-    #chapterTwo{
-        margin-top: -10px;
-        text-align: center;
-        color: brown;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    #abcChapterTwo{   
-    background-color:rgb(239, 240, 245);
-    padding: 50px;
-    border-radius: 25px;
-    margin-block-start: 10%;
-    margin-inline-start: 25%;
-    inline-size: 1200px;
-    block-size: 600px;
-    font-size: large;
-    width: 81.5%;
-    margin-left: 100px;
-    height: 100%;
-    
-    }
-    
-    #bottomButtons{
-        display: flex;
-        gap: 250px;    
-    }
-    
-    #lowerButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 20px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        
-    }
-    #lowerButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #upperButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #topButtons{
-        display: block;
-        gap: 5%;    
-    }
-    
-    #upperButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 17px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        margin-bottom: 35px;
-       
-    }
-    
-    audio{
-        margin-left: 40%;
-        margin-top: 120%;
-    }
-}
-@media screen and (min-width:681px) and (max-width:880px) {
-    body{
-        background-image: url(images/ABC.jpeg) ;
-        background-repeat: no-repeat;
-        position: absolute;
-        background-size: cover;
-        width: 100%;
-        margin-left: -100px;
-        height: 100%;
-    
-    }
-    
-    #chapterTwo{
-        margin-top: -10px;
-        text-align: center;
-        color: brown;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    #abcChapterTwo{   
-    background-color:rgb(239, 240, 245);
-    padding: 50px;
-    border-radius: 25px;
-    margin-block-start: 10%;
-    margin-inline-start: 25%;
-    inline-size: 1200px;
-    block-size: 600px;
-    font-size: larger;
-    width: 88%;
-    margin-left: 100px;
-    height: 100%;
-    
-    }
-    
-    #bottomButtons{
-        display: flex;
-        gap: 250px;    
-    }
-    
-    #lowerButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 20px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        
-    }
-    #lowerButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #upperButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #topButtons{
-        display: block;
-        gap: 5%;    
-    }
-    
-    #upperButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 17px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        margin-bottom: 35px;
-       
-    }
-    
-    audio{
-        margin-left: 40%;
-        margin-top: -10%;
-    }
-}
-@media screen and (min-width:881px) and (max-width:1080px) {
-    body{
-        background-image: url(images/ABC.jpeg) ;
-        background-repeat: no-repeat;
-        position: absolute;
-        background-size: cover;
-        width: 100%;
-        margin-left: -100px;
-        height: 100%;
-    
-    }
-    
-    #chapterTwo{
-        margin-top: -10px;
-        text-align: center;
-        color: brown;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    #abcChapterTwo{   
-    background-color:rgb(239, 240, 245);
-    padding: 50px;
-    border-radius: 25px;
-    margin-block-start: 10%;
-    margin-inline-start: 25%;
-    inline-size: 1200px;
-    block-size: 600px;
-    font-size: small;
-    width: 90%;
-    margin-left: 100px;
-    height: 100%;
-    
-    }
-    
-    #bottomButtons{
-        display: flex;
-        gap: 250px;    
-    }
-    
-    #lowerButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 20px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        
-    }
-    #lowerButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #upperButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #topButtons{
-        display: block;
-        gap: 55%;    
-    }
-    
-    #upperButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 17px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        margin-bottom: 35px;
-       
-    }
-    
-    audio{
-        margin-left: 40%;
-        margin-top: 10%;
-    }
-}
-@media screen and (min-width:1081px) and (max-width:1500px) {
-    body{
-        background-image: url(images/ABC.jpeg) ;
-        background-repeat: no-repeat;
-        position: absolute;
-        background-size: cover;
-        width: 100%;
-        margin-left: -100px;
-        height: 100%;
-    
-    }
-    
-    #chapterTwo{
-        margin-top: -10px;
-        text-align: center;
-        color: brown;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    #abcChapterTwo{   
-    background-color:rgb(239, 240, 245);
-    padding: 50px;
-    border-radius: 25px;
-    margin-block-start: 10%;
-    margin-inline-start: 25%;
-    inline-size: 1200px;
-    block-size: 600px;
-    font-size: large;
-    width: 92%;
-    height: 100%;
-    margin-left: 100px;
-    
-    }
-    
-    #bottomButtons{
-        display: flex;
-        gap: 250px;    
-    }
-    
-    #lowerButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 20px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        
-    }
-    #lowerButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #upperButton:hover{
-        color: rgb(3, 23, 18);
-        background-color: rgb(197, 66, 66);
-        
-    }
-    
-    #topButtons{
-        display: block;
-        gap: 45%;    
-    }
-    
-    #upperButton{
-        width: 180px;
-        padding: 5px;
-        color: white;
-        font-size: 17px;
-        background-color:brown ;
-        border: none;
-        border-radius: 10px;
-        margin-bottom: 35px;
-       
-    }
-    
-    audio{
-        margin-left: 40%;
-        margin-top: 10%;
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
     }
 }
 
+@media (max-width: 480px) {
+    body {
+        background-size: 100%;
+    }
+
+    #chapterTwo {
+        font-size: 1.5rem;
+    }
+
+    #abcChapterTwo {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+}

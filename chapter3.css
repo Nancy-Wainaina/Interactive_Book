@@ -1,61 +1,120 @@
-body{
-    background-image: url(images/unlucky.jpeg);
+body {
+    background-image: url("images/unlucky.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
 }
-section{
-    width: 1300px;
-    font-size: 25px;
-    border: 1px solid;
-    margin-left: 12%;
-    background-color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
-    padding-bottom: 30px;
-    border: none;
-}
-h1{
+
+h1 {
     text-align: center;
-    color: rgb(16,35,52);
+    color: rgb(190, 118, 34);
     font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
-#next{
-    width: 200px;
+
+section {
+    width: 80%;
+    max-width: 1300px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgba(239, 240, 245, 0.9);
+    padding: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin: 50px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#next {
+    width: 150px;
     padding: 10px;
     color: white;
     font-size: 20px;
-    background-color:rgb(16,35,52) ;
+    background-color: rgb(16, 35, 52);
     border: none;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
-#story{
-    width: 1200px;
-    background-color: white;
-    font-size:25px;
+
+#next:hover {
+    background-color: rgb(212, 84, 96);
+    transform: scale(1.05);
+}
+
+#story {
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(239, 240, 245, 0.9);
+    font-size: 1.2rem;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 20px;
-    margin-left: 15%;
-    padding-bottom: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-button{
+
+button {
     width: 150px;
-    background-color:  rgb(16,35,52);
+    background-color: rgb(16, 35, 52);
     color: white;
     padding: 10px;
     border: none;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
-#buttons{
+
+button:hover {
+    background-color: rgb(212, 84, 96);
+    transform: scale(1.05);
+}
+
+#buttons {
     display: flex;
     gap: 3.9%;
+    justify-content: center;
+    margin-top: 20px;
 }
-audio{
-    margin-left: 40%;
-    margin-top: 1%;
+
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
 }
-#next:hover{
-    background-color:  rgb(212,84,96);
+
+@media (max-width: 768px) {
+    section, #story {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    #next, button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    #buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    section, #story {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
 }
